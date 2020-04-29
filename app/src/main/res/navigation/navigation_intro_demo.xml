@@ -28,4 +28,9 @@
         android:name="com.aiwamob.navigationintro.ui.TaskTwoFragment"
         tools:layout="@layout/fragment_task_two"
         android:label="TaskTwoFragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.aiwamob.navigationintro.ui.AboutFragment"
+        tools:layout="@layout/fragment_about"
+        android:label="AboutFragment" />
 </navigation>

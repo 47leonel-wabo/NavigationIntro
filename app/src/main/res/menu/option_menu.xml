@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="@string/about_txt"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/moreFragment"
+        android:title="@string/more_txt"
+        app:showAsAction="never"/>
+</menu>
