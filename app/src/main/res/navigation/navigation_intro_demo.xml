@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_intro_demo"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.aiwamob.navigationintro.ui.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_taskOneFragment"
+            app:destination="@id/taskOneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskOneFragment"
+        android:name="com.aiwamob.navigationintro.ui.TaskOneFragment"
+        tools:layout="@layout/fragment_task_one"
+        android:label="TaskOneFragment" >
+        <action
+            android:id="@+id/action_taskOneFragment_to_taskTwoFragment"
+            app:destination="@id/taskTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskTwoFragment"
+        android:name="com.aiwamob.navigationintro.ui.TaskTwoFragment"
+        tools:layout="@layout/fragment_task_two"
+        android:label="TaskTwoFragment" />
+</navigation>
