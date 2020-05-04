@@ -12,7 +12,9 @@
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_taskOneFragment"
-            app:destination="@id/taskOneFragment" />
+            app:destination="@id/taskOneFragment"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/slide_right" />
     </fragment>
     <fragment
         android:id="@+id/taskOneFragment"
